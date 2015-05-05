@@ -10,7 +10,7 @@ public class NavBallDockingAlignmentIndicator : MonoBehaviour
 
 	public void Start()
 	{
-		PluginConfiguration cfg = KSP.IO.PluginConfiguration.CreateForType<NavBallDockingAlignmentIndicator>();
+		PluginConfiguration cfg = PluginConfiguration.CreateForType<NavBallDockingAlignmentIndicator>();
 		cfg.load();
 		Vector3 tmp = cfg.GetValue<Vector3>("alignmentmarkercolor", new Vector3(1f, 0f, 0f)); //default: red
 		Color alignmentmarkercolor = new Color(tmp.x, tmp.y, tmp.z);

@@ -4,3 +4,10 @@
 *.tar*
 *.zip
 NavBallDockingAlignmentIndicator
+*.csproj
+*.sln
+*.userprefs
+[Pp]ackages
+[Pp]roperties
+[Bb]in
+[Oo]bj
