@@ -3,6 +3,7 @@
 *.dll
 *.tar*
 *.zip
+*.mdb
 NavBallDockingAlignmentIndicator
 *.csproj
 *.sln
